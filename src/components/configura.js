@@ -34,7 +34,9 @@ export default class Configura extends Component {
                       <li>
                           <Link to="/menu">Menu</Link>
                       </li>
-
+                      <li>
+                          <Link to="/reloj">Tiempo</Link>
+                      </li>
                   </ul>
               </div>
           </div>

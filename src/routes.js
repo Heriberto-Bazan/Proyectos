@@ -6,8 +6,10 @@ import Login from './components/login';
 import Home from './components/home';
 import Configura from './components/configura';
 import Sucursal from './components/sucursal';
-import { Jumbotron } from 'react-bootstrap';
+import Formulario from './components/formulario';
+import Reloj from './components/reloj';
 
+import { Jumbotron } from 'react-bootstrap';
 
 const Greeting = () => {
   return <Jumbotron>Hola!</Jumbotron>;
@@ -37,7 +39,11 @@ export default (
     </Route>
     <Route path="/menu" component={Menu}>
     </Route>
-    <Route path="/sucursal" component={Sucursal}>+
+    <Route path="/sucursal" component={Sucursal}>
+    </Route>
+    <Route path="/formulario" component={Formulario}>
+    </Route>
+    <Route path="/reloj" component={Reloj}>
     </Route>
   </Router>
 );

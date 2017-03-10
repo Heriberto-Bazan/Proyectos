@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 
 import { Grid, Row, Col, Label, input, checkbox, form, Botton } from 'react-bootstrap';
 
+import Formulario from './formulario';
 import Configura from './configura';
 export default class Login extends Component {
   render() {
@@ -27,7 +28,7 @@ export default class Login extends Component {
                 <div className="checkbox">
                   <label>
                     <input type="checkbox" value="remember-me "/> Recordar
-                    <li>Registrar</li>
+                    <Link to="/formulario" >Registarte</Link>
                   </label>
                 </div>
                      <Link to="/configura" className="btn btn-success">Siguiente</Link>

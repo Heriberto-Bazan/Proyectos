@@ -32,7 +32,10 @@ export default class Menu extends Component {
           <Link to="/configura">Configuración</Link>
         </li>
         <li>
-            <Link to="/menu">Menu</Link>
+          <Link to="/menu">Menu</Link>
+        </li>
+        <li>
+          <Link to="/reloj">Tiempo</Link>
         </li>
         </ul>
       </div>
