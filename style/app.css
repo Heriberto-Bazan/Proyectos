@@ -1,0 +1,38 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header h3 {
+  margin-top: 0 auto;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 15rem;
+}
+
+.header h2{
+  margin-top: 0 auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+.header h1{
+  line-height: 15rem;
+  text-align: center;
+}
+
+@media (min-width: 60em) {
+  .container {
+    max-width: 66rem;
+  }
+}
+
+.container{
+  text-align: center;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
