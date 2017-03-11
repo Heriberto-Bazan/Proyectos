@@ -26,7 +26,7 @@ export default class Formulario extends Component {
                   <input type="email" id="inputEmail" className="form-control" placeholder="Ingresa Email " />
                 <label forName="inputPassword" className="sr-only">Password</label>
                   <input type="password" id="inputPassword" className="form-control" placeholder="Ingresa Password" />
-                  <div className="checkbox">
+                  // <div className="checkbox">
                   </div>
                 <Link to="/configura" className="btn btn-success">Siguiente</Link>
             </form>
